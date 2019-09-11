@@ -1,0 +1,1805 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #818181
+}
+p {
+    margin: 0 0 15px;
+    line-height: 28px
+}
+a,a:hover{
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+img {
+    width: 100%
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+h1 {
+    font-size: 34px;
+    line-height: 42px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+h4 {
+    font-size: 21px;
+    line-height: 28px;
+}
+h5 {
+    font-size: 18px;
+    line-height: 24px;
+}
+h6 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.btn {
+    font-family: 'Barlow', sans-serif;
+    display: inline-block;
+    border: 2px solid transparent;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
+.btn i{
+    margin-left: 10px;
+}
+.btn_link{
+    padding: 0px;
+}
+.btn.focus, .btn:focus{
+    box-shadow: none;
+}
+button:focus{
+    outline: none;
+}
+.position_relative{
+    position: relative;
+}
+.overflow-hidden{
+    overflow: hidden;
+    display: block;
+}
+.full-row{
+    width: 100%;
+    position: relative;
+}
+.form-control{
+    font-size: 14px;
+    height: 44px;
+    padding: 6px 12px;
+    border: none;
+    width: 100%;
+    border-radius: 0px;
+}
+.form-control:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.z-relative{
+    position: relative;
+    z-index: 11;
+}
+.page-link:focus {
+    box-shadow: none;
+}
+.border_gray input{
+    border: 1px solid;
+}
+.border_gray select{
+    border: 1px solid;
+}
+.z-index-1{
+    z-index: 10
+}
+.border-top-3-default {
+    border-width: 3px 0 0 0;
+    border-style: solid;
+}
+/*
+02.	Default Margin and Padding
+----------------------------------------------------------*/
+/*	Margin */
+.my_10{
+    margin: 10px 0px;
+}
+.my_15{
+    margin: 15px 0;
+}
+.ml_20{
+    margin-left: 20px;
+}
+.mt_15{
+    margin-top: 15px;
+}
+.mt_30{
+    margin-top: 30px;
+}
+.mt_50{
+    margin-top: 50px;
+}
+.mb_10{
+    margin-bottom: 10px;
+}
+.mb_15{
+    margin-bottom: 15px;
+}
+.mb_30{
+    margin-bottom: 30px;
+}
+.mb_60{
+    margin-bottom: 60px;
+}
+.mr_30{
+    margin-right: 30px;
+}
+/*  Padding */
+.pt_80{
+    padding-top: 80px;
+}
+.p_15{
+    padding: 15px;
+}
+.p_20{
+    padding: 20px;
+}
+.py_10{
+    padding: 10px 0px;
+}
+.py_80{
+    padding: 80px 0px;
+}
+.py_50{
+    padding: 50px 0px;
+}
+.py_30{
+    padding: 30px 0px;
+}
+.p_30{
+    padding: 30px;
+}
+.py_15{
+    padding: 15px 0;
+}
+.pt_30{
+    padding-top: 30px;
+}
+.pb_30{
+    padding-bottom: 30px;
+}
+.bgimage-thumb {
+    padding: 80px
+}
+/*
+03. Overlay
+----------------------------------------------------------*/
+.overlay,.overlay3{
+    position: relative;
+}
+.overlay:before,.overlay3:before{
+    position: absolute;
+    width: 100%;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+/*
+04. Socal Media
+----------------------------------------------------------*/
+.social_media li {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: block;
+    float: left;
+}
+.social_media li a {
+    text-align: center;
+    display: block;
+}
+.social_media li i {
+    line-height: 36px;
+    width: 36px;
+    height: 36px;
+}
+.social_media li a{
+    border: 2px solid;
+}
+/*
+05. Background Images
+----------------------------------------------------------*/
+
+/*
+06.	Top Header
+----------------------------------------------------------*/
+.header_top{
+    font-size: 14px;
+}
+.register_login ul li{
+    float: left;
+    padding-left: 20px;
+}
+.top_header_phone span {
+    margin-left: 10px;
+}
+.header {
+    animation-fill-mode: both;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+/*
+07.  Header Nav Menu
+----------------------------------------------------------*/
+.navbar_one{
+    line-height: 50px;
+    padding: 10px 0px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.navbar{
+    padding: 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0px 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 16px;
+}
+
+@keyframes menu_sticky {
+    0% {
+        margin-top: -100px
+    }
+    50% {
+        margin-top: -90px
+    }
+    100% {
+        margin-top: 0
+    }
+}
+@keyframes menu_sticky {
+    0% {
+        margin-top: -100px
+    }
+    50% {
+        margin-top: -90px
+    }
+    100% {
+        margin-top: 0
+    }
+}
+.dropdown-menu{
+    border-radius: 0px;
+    margin: 14px 0px 0px;
+    border: none;
+}
+.dropdown-item {
+    padding: 10px 20px;
+    line-height: 24px;
+}
+.dropdown-item:last-child,.dropdown-item:first-child{
+    border-radius: 0px;
+}
+/*
+08.  Slider One
+----------------------------------------------------------*/
+#slider{
+    position: relative;
+}
+/*
+09.  Slider Two
+----------------------------------------------------------*/
+#slider_2{
+    position: relative;
+}
+#slider_2:before{
+    bottom: -415px;
+    content: "";
+    height: 475px;
+    left: 0;
+    position: absolute;
+    transform: skew(0deg, -5deg);
+    width: 100%;
+    z-index: 1;
+}
+/*
+10.  Training
+----------------------------------------------------------*/
+.training{
+    z-index: 1
+}
+/*
+11.	Thumbnail Two
+----------------------------------------------------------*/
+.thumb_two{
+    position: relative;
+    overflow: hidden;
+}
+.class_schedule{
+    position: absolute;
+    left: 0;
+    bottom: -80%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+.thumb_two tr td{
+    font-size: 13px;
+}
+.thumb_two tr td:first-child{
+    float: left;
+}
+.thumb_two tr td:last-child{
+    float: right;
+}
+.class_item_hover{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom center;
+    z-index: 1;
+}
+.thumb_two:hover .class_schedule{
+    display: none;
+}
+.owl-carousel .owl-nav{
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    display: inline-block;
+    font-weight: 500;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 18px !important;
+    margin: 0 3px;
+}
+
+/*
+12. List Description Start
+----------------------------------------------------------*/
+.description_img{
+    margin-top: 41px;
+}
+.hexagon i:before{
+    font-size: 24px;
+}
+.hexagon {
+    position: relative;
+    width: 49px;
+    height: 26px;
+    float: left;
+}
+.hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    left: inherit;
+}
+.hexagon:before{
+    bottom: 100%;
+    border-bottom: 14.43px solid;
+}
+.hexagon:after{
+    top: 100%;
+    width: 0;
+    border-top: 14.43px solid;
+}
+.hexagon i:before{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+/*
+13. Popular Programs
+----------------------------------------------------------*/
+.popular_programs{
+    display: block;
+    overflow: hidden;
+}
+.popular_programs::before {
+    content: "";
+    height: 244px;
+    left: 0;
+    position: absolute;
+    top: -93px;
+    transform: skew(0deg, 9deg);
+    width: 50.1%;
+    z-index: 1;
+}
+.popular_programs::after {
+    content: "";
+    height: 244px;
+    position: absolute;
+    right: 0;
+    top: -93px;
+    transform: skew(0deg, -9deg);
+    width: 50%;
+    z-index: 1;
+}
+.popular_programs .section_title{
+    position: relative;
+    z-index: 11;
+}
+.prigram_title{
+    position: relative;
+}
+.prigram_title:after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-top: 50px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.program_box{
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.left {
+    left: 0;
+}
+.right {
+    left: 50%;
+}
+.left:before{
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 85px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+}
+.right:before{
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 80px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+}
+.right:after{
+    left: -16px;
+}
+.content{
+    padding: 20px 30px;
+    position: relative;
+    display: inline-block;
+}
+.program_title{
+    margin-bottom: 20px;
+}
+.program_icon_left,.program_icon_right{
+    content: "";
+    top: 80px;
+    position: absolute;
+    z-index: 1;
+}
+.program_icon_left{
+    right: -25px;
+}
+.program_icon_right{
+    left: -25px;
+}
+.hexagon.program_icon_right{
+    left: -25px;
+}
+.monthly_price_left,.monthly_price_right{
+    content: "";
+    top: 80px;
+    position: absolute;
+}
+.monthly_price_left{
+    right: -130px;
+}
+.monthly_price_right{
+    left: -130px;
+}
+/*    Timeline 2     */
+
+.program_box2{
+    padding: 10px 0px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.program_box2.left:before,.program_box2.right:before{
+    display: none;
+}
+/*
+14. Price Table
+----------------------------------------------------------*/
+.pricing_info li{
+    padding: 7px 0px;
+}
+.duration{
+    font-size: 16px;
+    font-weight: 700;
+}
+.price{
+    font-size: 18px;
+    font-weight: 700;
+}
+/*
+15. Trainer Profile Section css
+----------------------------------------------------------*/
+.trainer_name{
+    margin-bottom: 5px;
+}
+.amount{
+    font-weight: 600
+}
+/*
+16. Blog Post 
+----------------------------------------------------------*/
+.post_date{
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.post_info li, .post_status li{
+    margin-right: 7px;
+    font-size: 13px;
+    display: inline-block;
+}
+.post_status li i{
+    margin-right: 8px;
+}
+.post_item .post_date{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: inline-table;
+}
+.post_info .post_date{
+    padding: 5px 15px;
+}
+/*
+17. Newsletter
+----------------------------------------------------------*/
+#newsletter {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: -55px
+}
+.newsletter {
+    padding: 35px 40px
+}
+.newsletter_info{
+    padding: 8px 0px;
+}
+.newsletter_info .join {
+    font-weight: 500
+}
+.newsletter_info .thumb-title {
+    font-weight: 700;
+    font-size: 24px
+}
+.newsletter_form input {
+    width: 73%;
+    float: left
+}
+/*
+18. Footer
+----------------------------------------------------------*/
+.footer-widget {
+    padding-bottom: 30px
+}
+.footer .title {
+    font-size: 16px;
+    padding: 0
+}
+.footer_widgets_title, .footer_logo {
+    height: 70px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0
+}
+.footer_social_media li a {
+    display: block
+}
+.footer_logo img {
+    width: auto
+}
+.upcomming_event li {
+    display: flex
+}
+.latest_tweets li i{
+    width: 20px;
+    line-height: 26px;
+    text-align: left;
+    float: left;
+}
+.contact_info li i {
+    width: 20px;
+    line-height: 26px;
+    text-align: left;
+/*    float: left;*/
+}
+.tweets_time,
+.latest_tweets li a div,
+.contact_info li div {
+    margin-left: 25px
+}
+.upcomming_event_img{
+    margin: 1px 10px 0 0
+}
+.upcomming_event li a img{
+    margin: 5px 0
+}
+.latest_tweets li {
+    margin-bottom: 20px;
+    line-height: 26px
+}
+.tweets_time {
+    font-size: 12px;
+    line-height: 26px
+}
+.upcomming_event li{
+    padding-bottom: 10px
+}
+.opening_hours .title {
+    padding: 10px 0 0
+}
+
+/*
+19. Modal dialog
+----------------------------------------------------------*/
+.modal-dialog,.singup_form{
+    max-width: 600px;
+/*    margin: 1.75rem auto;*/
+}
+.flaticon-large [class^="flaticon-"]::before {
+    font-size: 54px;
+}
+.Traning .trail_form {
+    z-index: 1;
+    position: relative;
+    margin-top: -110px;
+}
+.Traning{
+    position: relative;
+    z-index: 99
+}
+/*
+20. Page Banner
+----------------------------------------------------------*/
+#page_banner{
+    padding: 180px 0px 80px 0px;
+}
+.page_link li{
+    float: left;
+    font-size: 14px;
+    padding-right: 15px;
+    line-height: 48px;
+}
+.page_link li:last-child{
+    padding-right: 0px;
+}
+/*
+21. List Style One 
+----------------------------------------------------------*/
+.list_style_one li{
+    font-weight: 600;
+    padding: 10px 0;
+    list-style-type: square;
+    list-style-position: inside;
+}
+/*
+22. About Company
+----------------------------------------------------------*/
+.about_company:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+}
+.about_company:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    background: url(../images/bg/fitness-bg.jpg) no-repeat center center / cover;
+}
+.play_video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+.play_video{
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.YouTubePopUp-Wrap {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999
+}
+.YouTubePopUp-Content {
+    background: rgba(0, 0, 0, 0) url("../images/fancybox/fancybox_loading.gif") no-repeat scroll center center;
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 680px;
+    position: relative
+}
+.YouTubePopUp-Content iframe {
+    border: medium none;
+    bottom: 0;
+    display: block;
+    height: 480px;
+    margin: auto 0;
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+/*
+23. progress bar 
+----------------------------------------------------------*/
+.company-progress .progress{
+    margin: 5px 0 30px;
+    border-radius: 0px;
+}
+.skill-percent{
+    position:absolute;
+    right: 0;
+    top: -25px;
+    text-align:right
+}
+.skill-percent .count-num{
+    display:initial;
+    font-size: 14px
+}
+.progress{
+    height: 15px;
+    overflow: visible;
+    position: relative 
+}
+.progress-bar{
+    width:0%;
+    height: 15px;
+    transition: all 3000ms ease;
+}
+.progress span {
+    display: inline-block;
+    margin-bottom: 7px;
+    padding-left: 0;
+    width: 100%
+}
+/*
+24. Testimonial
+----------------------------------------------------------*/
+.testimonial_item {
+    padding: 80px 30px 30px;
+}
+.testimonial .testimonial_item img{
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    top: -50px;
+}
+/*
+25. Classes Gallery
+----------------------------------------------------------*/
+.filters ul li{
+    float: left;
+    margin: 0px 15px;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.filter-list .mix{
+    display:none; 
+}
+/*
+26. Pagination
+----------------------------------------------------------*/
+#pagination .page-link{
+    float: left;
+    margin-right: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #0a0d1d;
+    font-weight: 500;
+    width: 45px;
+    text-align: center;
+    line-height: 27px;
+}
+.page-item:first-child .page-link,
+.page-item:last-child .page-link{
+    border-radius: 0px;
+}
+.page-item.active .page-link{
+    border-color: transparent;
+}
+/*
+27. Single Cass Details
+----------------------------------------------------------*/
+.class_detail.owl-carousel .owl-nav{
+    display: none !important;
+}
+.class_detail.owl-carousel .owl-dots{
+    position: absolute;
+    z-index: 11;
+    bottom: 40px;
+    left: 50%;
+}
+.owl-theme .owl-controls {
+    margin-top: 20px;
+}
+.class_detail.owl-carousel button.owl-dot span{
+    display: inline-block;
+    font-weight: 500;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+.class_detail.owl-carousel .owl-dot.active span{
+    position: relative
+}
+.class_detail.owl-carousel .owl-dot.active span:before{
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: rgba(124, 185, 8, .30);
+    left: -6px;
+    top: -6px
+}
+.trainer_list .trainer_item_hover{
+    top: 240px;
+}
+.day_class_details p:first-child{
+    font-weight: 600;
+}
+.nav-tabs{
+    border: none;
+}
+.nav-tabs .nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    cursor: default;
+    padding:10px 25px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    border: none;
+}
+.nav-tabs .nav-link.active{
+    border-top: 2px solid;
+}
+
+/*  Class Sidebar */
+
+.sidebar-widget tr td{
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.sidebar-widget tr td:last-child {
+    padding-left: 20px;
+}
+/*
+28. class schedule
+----------------------------------------------------------*/
+.shedule_table td, .shedule_table th {
+    border: 1px solid #000;
+}
+.shedule_table th {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.shedule_table td, .shedule_table th {
+    padding: 15px;
+    text-align: center;
+    width: 12.5%;
+}
+.shedule_table td h6{
+    text-transform: uppercase;
+}
+/*
+29. Trainer Profile
+----------------------------------------------------------*/
+.about_trainer_info {
+    border-bottom: 1px solid #a2a2a2;
+    display: block;
+}
+.about_trainer_info tr td {
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.about_trainer_info tr td:last-child {
+    padding-left: 30px;
+}
+.about_trainer_info tr td {
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.trainer_profile_acquire li {
+    float: left;
+    text-align: left;
+    width: 25%;
+}
+.trainer_profile_acquire [class^="flaticon-"]::before {
+    font-size: 28px;
+}
+/*
+30. Blog Sidebar
+----------------------------------------------------------*/
+.submit_btn {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+.submit_btn button{
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+.categories ul li {
+    border-bottom: 1px solid;
+    padding: 5px 0;
+    margin-bottom: 10px
+}
+.categories ul li:last-child {
+    margin-bottom: 0
+}
+.widget.category_item ul li {
+    padding-bottom: 10px
+}
+.widget.category_item ul li span {
+    color: inherit
+}
+.widget.category_item ul li a{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog_tag {
+    display: inline-block;
+    width: 100%
+}
+.widget ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.widget ul li {
+    padding: 0 0 15px 0
+}
+.widget ul li span{
+    padding-right: 5px;
+    font-size: 13px
+}
+.widget_tag li a{
+    font-size: 13px
+}
+.widget_tag li{
+    float: left;
+    margin: 0 5px 5px 0;
+    padding: 0 !important;
+}
+.widget_tag ul li a{
+    padding: 0 20px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 32px;
+    display: block
+}
+/*
+31. Single Blog
+----------------------------------------------------------*/
+.blog-content blockquote {
+    font-style: italic;
+    font-size: 16px;
+    padding: 15px 0px 15px 50px;
+    line-height: 28px;
+}
+.share_name{
+    font-size: 16px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.avatar {
+    width: 70px;
+    float: left
+}
+.comment_info {
+    margin-left: 85px
+}
+.post_comment ul li{
+    border-bottom: 1px solid;
+}
+.post_comment ul li:last-child{
+    border-bottom: none;
+}
+.replay{
+    font-size: 16px;
+}
+.post_comment .children{
+    margin-left: 120px;
+}
+.comment_form textarea,
+.comment_form input{
+    border: 1px solid;
+}
+
+/*
+32. Events section css
+----------------------------------------------------------*/
+.event_time_date{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    bottom: 60px;
+}
+.timer span{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    list-style-type: none;
+    padding: 15px 7px;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+}
+/*
+33. Events Details
+----------------------------------------------------------*/
+.single_event_location span i,
+.query_part a i, .query_part a i {
+    padding-right: 7px;
+}
+.single_event_img .date {
+    left: 20px;
+    position: absolute;
+    top: 20px;
+}
+.event_details .date span{
+    font-size: 32px;
+    font-weight: 600;
+}
+.single_event_schdule li {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.single_event_schdule .shedule_info {
+    margin-left: 125px;
+    min-height: 114px;
+}
+.single_event_schdule .time span {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+.single_event_schdule .time{
+    padding: 30px 20px;
+}
+/*
+34. Gallery
+----------------------------------------------------------*/
+.filters ul li{
+    float: left;
+    margin: 0px 15px;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.filter-list .mix{
+    display:none; 
+}
+.default-portfolio-item .overlay-box{
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 100%;
+}
+.default-portfolio-item .overlay-box span{
+    position: absolute;
+    font-size: 45px;
+    line-height: 0px;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+/*
+35. Signup Form
+----------------------------------------------------------*/
+.sign-in{
+    font-size: 16px;
+}
+.modal-footer{
+    font-size: 13px;
+}
+/*
+36. Error Page
+----------------------------------------------------------*/
+#error_page{
+    width: 60%;
+    margin: 0 auto;
+}
+.page-error {
+    font-size: 80px;
+    font-weight: 800;
+    font-family: 'Barlow', sans-serif;
+}
+.not_found{
+    font-size: 42px;
+    font-weight: 800;
+    font-family: 'Barlow', sans-serif;
+}
+/*
+37. Shop Page Sidebar
+----------------------------------------------------------*/
+.widget .card,.widget .card-header{
+    border: none;
+    background-color: transparent;
+}
+#accordion li{
+    padding: 7px 0;
+}
+#accordion li a{
+    padding: 0;
+}
+#accordion li.card-header a.category-collaps{
+    position: relative;
+    padding: 0px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+#accordion li.card-header a.category-collaps:after{
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f107";
+    color: inherit;
+    font-size: 12px;
+    right: 15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#accordion li.card-header ul li:last-child{
+    padding-bottom: 20px;
+}
+.irs--flat .irs-to,.irs--flat .irs-from{
+    border-radius: 0px;
+}
+.widget ul li a{
+    padding: 0;
+}
+.widget ul li a span{
+    float: right;
+}
+.popular_product .popular_product_item .popular_product_img{
+    display: unset;
+}
+.popular_product_img img{
+    width: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.popular_product_info{
+    display: inline-block;
+}
+.price_value del{
+    margin-right: 10px;
+}
+.stars{
+    margin: 5px 0;
+    font-size: 12px;
+}
+/*
+38. Shop Page 
+----------------------------------------------------------*/
+.products_search form .short_by .form-control{
+    width: 200px;
+    height: auto;
+}
+.products_search form .show .form-control{
+    width: 100px;
+    height: auto;
+}
+.products_search form label{
+    line-height: 31px;
+}
+
+
+/*
+39. Single Product Page 
+----------------------------------------------------------*/
+.zoom {
+    width: auto !important;
+    height: 400px;
+    display: inline-block !important;
+}
+.owl-carousel.owl-drag .owl-item img{
+    box-shadow: none;
+}
+.single_product_img .owl-carousel .owl-nav{
+    display: none !important;
+}
+.product_cat,.avelity{
+    font-weight: 600;
+}
+
+.quantity .btn-number{
+    padding: 10px 15px;
+    border: none;
+}
+.quantity .input-group{
+    border: 1px solid;
+}
+.quantity .input-group-btn{
+    line-height: 24px;
+}
+.product_quality li{
+    list-style: decimal;
+    padding: 5px 0px; 
+}
+/*
+40. Cart Page 
+----------------------------------------------------------*/
+.cart_form_main tr td, .cart_form_main tr th {
+    padding: 15px;
+}
+.cart_form_main tbody tr td,.cart_form select{
+    border: 1px solid;
+}
+.cart_form_main tr img {
+    width: 60px;
+}
+.cupon .form-control{
+    width: 200px;
+    display: block;
+    float: left;
+}
+.cart_form select{
+    padding: 12px 20px;
+    width: 100%;
+}
+.cart_total tr td{
+    border: 1px solid;
+    padding: 15px 30px; 
+}
+/*
+41. Contact
+----------------------------------------------------------*/
+#map,.send_meaasge{
+    height: 560px;
+}
+.error-handel {
+    padding-top: 10px;
+}
+label.error, .error-handel {
+    font-weight: 300;
+    color: #fff;
+    font-size: 13px;
+}
+#success, #error {
+    display: none;
+}
+.contact_item .icon i{
+    font-size: 20px;
+    width: 60px;
+    line-height: 60px;
+}
+/*
+magnify.css
+---------------------------------------------------------*/
+.magnify,
+.magnify > .magnify-lens,
+.magnify-mobile,
+.lens-mobile { /* Reset */
+    min-width: 0;
+    min-height: 0;
+    animation: none;
+    border: none;
+    float: none;
+    margin: 0;
+    opacity: 1;
+    outline: none;
+    overflow: visible;
+    padding: 0;
+    text-indent: 0;
+    transform: none;
+    transition: none;
+}
+.magnify {
+    position: relative;
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    display: inline-block;
+    z-index: inherit;
+}
+.magnify > .magnify-lens { /* Magnifying lens */
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /* Multiple box shadows to achieve the glass lens effect */
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
+        0 0 7px 7px rgba(0, 0, 0, 0.25),
+        inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    cursor: none;
+    display: none;
+    z-index: 99;
+}
+.magnify > .magnify-lens.loading {
+    background: #333 !important;
+    opacity: 0.8;
+}
+.magnify > .magnify-lens.loading:after { /* Loading text */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    content: 'Loading...';
+    font: italic normal 16px/1 Calibri, sans-serif;
+    letter-spacing: 1px;
+    margin-top: -8px;
+    text-align: center;
+    text-shadow: 0 0 2px rgba(51, 51, 51, 0.8);
+    text-transform: none;
+}
+/*
+42. Responsive css
+----------------------------------------------------------*/
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+/*
+// Large devices (desktops, less than 1200px)
+*/
+@media (max-width: 1199.98px) {
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    .thumb_two tr td {
+        font-size: 11px;
+    }
+    .class_schedule{
+        bottom: -50%;
+    }
+    .class_item_hover h4{
+        padding: 5px 0px;
+    }
+    .class_item_hover .text_area{
+        margin: 10px;
+    }
+    .trainer_item_hover,.trainer_item_hover2{
+        top: 225px;
+    }
+    .trainer_item:hover .trainer_item_hover, .trainer_item:hover .trainer_item_hover2{
+        padding: 25px 20px;
+    }
+    .trainer_item_hover .text_area{
+        margin: 20px 0px;
+    }
+    .post_info,.post_info2{
+        padding: 12px;
+    }
+    .newsletter_form input{
+        width: 65%;
+        float: left;
+    }
+    .social_media li i {
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    p {
+        margin: 0 0 10px;
+        line-height: 24px;
+    }
+    .trainer_list .trainer_item_hover {
+        top: 200px;
+    }
+    .no_vacancy{
+        padding: 0px 15px;
+    }
+    .day_class_details{
+        font-size: 12px;
+    }
+    .timer span{
+        padding: 15px 5px;
+    }
+    .short_by label{
+        margin-right: 10px;
+    }
+    .products_search form .short_by .form-control {
+        width: 180px;
+        height: auto;
+    }
+    .widget{
+        padding: 10px;
+    }
+    .widget ul li a,.price_value del,.widget ul li span,
+    .contact_item .info span{
+        font-size: 12px;
+    }
+    .popular_product_img img{
+        width: 50px;
+    }
+    .contact_item .icon{
+        margin-right: 10px;
+    } 
+}
+/*
+// Large devices (desktops, 992px and up)
+============================================================*/
+@media (min-width: 992px) {
+    #main_nav.fixed-header{
+        box-shadow: 0 1px 8px 0 rgba(255, 255, 255, 0.2)
+    }
+    #main_nav.fixed-header{
+        animation-duration: 1s;
+        animation-name: menu_sticky;
+        animation-timing-function: ease-out;
+        left: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        z-index: 99
+    }
+    /*-------annimation dropdown---------*/
+    .navbar .navbar-nav > .active > a, 
+    .navbar .navbar-nav > .active:hover > a, 
+    .navbar .navbar-nav > .active > a:focus {
+        background-color: transparent;
+        -moz-transition: all 300ms ease-in-out 0s;
+        -ms-transition: all 300ms ease-in-out 0s;
+        -o-transition: all 300ms ease-in-out 0s;
+        -webkit-transition: all 300ms ease-in-out 0s;
+        transition: all 300ms ease-in-out 0s
+    }
+    .navbar .navbar-nav li a,
+    .navbar .navbar-nav li ul.dropdown-menu {
+        -moz-transition: all 300ms ease-in-out 0s;
+        -ms-transition: all 300ms ease-in-out 0s;
+        -o-transition: all 300ms ease-in-out 0s;
+        -webkit-transition: all 300ms ease-in-out 0s;
+        transition: all 300ms ease-in-out 0s
+    }
+    .navbar .navbar-nav li > ul.dropdown-menu {
+        visibility: hidden;
+        display: block;
+        opacity: 0;
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9)
+    }
+    .navbar .navbar-nav li:hover > ul.dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        transform: scale(1)
+    }
+
+}
+/*
+// Medium devices (tablets, less than 992px)
+*/
+@media (max-width: 991.98px) {
+    h4{
+        font-size: 24px;
+    }
+    #page_banner {
+        padding-top: 80px
+    }
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    .navbar-collapse{
+        background-color: #000;
+        padding-bottom: 30px;
+    }
+    .class_schedule {
+        bottom: -82%;
+    }
+    .thumb_two tr td {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .class_item_hover h4 {
+        padding: 30px 0px;
+    }
+    .text_area p{
+        padding: 30px 0px;
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .list_description ul li{
+        margin-bottom: 20px;
+    }
+    .pricing_item{
+        margin-bottom: 30px;
+    }
+    .trainer_item_hover2{
+        top: 345px;
+    }
+    .trainer_name{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .trainer_title{
+        font-size: 14px;
+    }
+    #newsletter{
+        top: -75px;
+    }
+    .newsletter {
+        padding: 15px 40px;
+    }
+    .footer-widget{
+        display: inline-block;
+    }
+    .background4{
+        background-image: none;
+    }
+    .trainer.trainer_item .trainer_item_hover2 {
+        top: 220px;
+    }
+    .trainer .trainer_name{
+        font-size: 21px;
+    }
+    .trainer .trainer_item_hover2 .text_area{
+        margin: 0px;
+    }
+    .trainer .trainer_item_hover2 .text_area p{
+        padding: 20px 0px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .shedule_table {
+        width: 100%;
+        overflow-y: scroll;
+    }
+    .trainer_profile_info{
+        margin-top: 30px;
+    }
+    .pagination,.type_comment{
+        margin-bottom: 30px;
+    }
+    .header_top {
+        display: none
+    }
+    .header {
+        position: static;
+        background: #000;
+
+    }
+}
+/*
+// Small devices (landscape phones, 576px and up)
+*/
+@media (max-width: 575.98px){
+    .header_top,
+    .timeline:after,
+    .prigram_title:after,
+    .left:before,
+    .right:before,
+    .company_video,
+    .about_company:after{
+        display: none;
+    }
+    .program_box,.program_box2{
+        padding: 10px 0px;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .right{
+        left: unset;
+    }
+    .hexagon{
+        display: none;
+    }
+    .monthly_price_left{
+        right: 0px;
+        bottom: -30px;
+        top: unset;
+        font-size: 18px;
+    }
+    .monthly_price_right{
+        left: 0px;
+        bottom: -30px;
+        top: unset;
+        font-size: 18px;
+    }
+    .newsletter_info .thumb-title{
+        font-size: 20px;
+    }
+    .newsletter {
+        padding: 15px 20px;
+    }
+    .newsletter_form input {
+        width: 55%;
+        margin-right: 0px;
+    }
+    .page_banner_title{
+        text-align: center;
+    }
+    .page_link{
+        float: unset !important;
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+    }
+    .trainer.trainer_item .trainer_item_hover2{
+        top: 346px;
+    }
+    .post_comment .children {
+        margin-left: 60px;
+    }
+    #error_page{
+        width: 100%;
+    }
+    .short_by,.quantity,.cart_form,.info,.contact_item,.contact_item{
+        margin-bottom: 15px;
+    }
+    .cart_form_main{
+        overflow-x: scroll;
+    }
+    .cupon .form-control,.cupon .btn{
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+    .about_company:before{
+        width: 100%;
+    }
+}
+.owl-prev{
+    background-color: #fff !important;
+}
+.owl-next{
+    background-color: #fff !important;
+}
+.owl-prev:hover{
+    background-color: rgba(124, 185, 8, .8) !important;
+}
+.owl-next:hover{
+    background-color: rgba(124, 185, 8, .8) !important;
+}
+.bg_default{
+    background-color: rgb(124, 185, 8) !important;
+}
+.img-responsive{
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+}
+.sevicestab{
+    height: 140px;
+    padding: 10px 5px;
+}
+.right:before{
+    border: medium solid black !important;
+}
+.left:before{
+    border: medium solid black !important;
+}
+.hexagon:before{
+    border-bottom-color: #7cb908 !important;
+    position: absolute !important;
+    left: 0 !important;
+}
+.hexagon:after{
+    border-top-color: #7cb908 !important;
+    position: absolute !important;
+    left: 0 !important;
+}
+.background1{
+    background: rgba(0, 0, 0, 0) url("../images/branch-back.jpg") no-repeat scroll 0 0 / cover;
+    background-attachment: fixed;
+}

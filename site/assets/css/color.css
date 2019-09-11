@@ -1,0 +1,232 @@
+/*	Color
+==================================*/
+.color_default{
+    color: #7cb908;
+}
+.color_primary{
+    color: #0a0d1d;
+}
+.color_secondery{
+    color: #818181;
+}
+.color_gray{
+    color: #bdbdbd;
+}
+.color_deepgray{
+    color: #a2a2a2;
+}
+.color_white{
+    color: #fff;
+}
+
+/*	Background Color Class
+====================================*/
+.bg_default{
+    background-color: #7cb908;
+}
+.bg_primary{
+    background-color: #0a0d1d;
+}
+.bg_gray{
+    background-color: #f5f5f5;
+}
+.bg_deepgray{
+    background-color: #a2a2a2;
+}
+.bg_white{
+    background-color: #fff;
+}
+.bg_black{
+    background: #000;
+}
+/*	btn
+====================================*/
+.btn_default{
+    background: #7cb908;
+    color: #fff;
+}
+.btn_default:hover,.btn_default:focus{
+    background: transparent;
+    border-color: #7cb908;
+    color: #7cb908;
+}
+.btn_link{
+    color: #7cb908;
+}
+.btn_link:hover{
+    color: #0a0d1d;
+}
+.btn_primary{
+    background: #fff;
+    color: #000;
+}
+.btn_primary:hover{
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+.btn_secondery{
+    color: #fff;
+    background-color: #0a0d1d;
+    border-color: transparent;
+}
+.btn_secondery:hover{
+    border-color: #0a0d1d;
+    background-color: transparent;
+    color: #0a0d1d;
+}
+/*	Hover Color 
+====================================*/
+.white_hover a,.white_hover a:hover{
+    color: #fff;
+}
+
+
+/*	Color Default
+====================================*/
+.icon-default i,.thumb_title a,.social_media li a:hover,
+.post_title a:hover,.latest_tweets li a:hover,.filters ul li.active,
+.shedule_table td h6,.widget ul li a:hover,.blog-content blockquote{
+    color: #7cb908;
+}
+.stars i {
+    color: #ff9600;
+}
+/*	Color Primary
+====================================*/
+.text_area p,.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover,.product_name a:hover,
+.post_title a,.list_style_one li,.thumbnail_one:hover .thumb_title a,
+.thumbnail_one:hover .btn_link,.nav-tabs .nav-link,.nav-tabs .nav-link.active,
+.shedule_table th,.widget ul li a{
+    color: #0a0d1d;
+}
+
+/*	Color Gray
+====================================*/
+.latest_tweets li a{
+    color: #bdbdbd;
+}
+.cart_form select{
+    color: #818181;
+}
+/*	Color Deepgray
+====================================*/
+.day_class_details p:last-child{
+    color: #a2a2a2;
+}
+/*	Color White
+====================================*/
+.thumbnail_one:hover p,.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,.social_media li a,
+.class_detail.owl-carousel button.owl-dot span,.widget_tag ul li a,
+.widget_tag ul li a:hover, .icon_white i{
+    color: #fff;
+}
+
+/*	Background Color Default
+====================================*/
+.thumbnail_one:hover,.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,.popular_programs:before,
+.popular_programs:after,.about_program_item:after,.trainer_item_hover::after,
+.progress-bar,#pagination .page-link:hover,#pagination .page-item.active a,
+.class_detail.owl-carousel button.owl-dot span,.shedule_table th,
+.widget_tag ul li a:hover,.irs--flat .irs-bar,.irs--flat .irs-handle:hover>i:first-child,
+.irs--flat .irs-handle>i:first-child,.irs--flat .irs-to,.irs--flat .irs-from{
+    background-color: #7cb908
+}
+
+
+/*	Background Color Primary
+====================================*/
+.company-progress .progress,.media_dark li,.widget_tag ul li a{
+    background-color: #0a0d1d;
+}
+
+/*	Background Color Gray
+====================================*/
+.post_info::after,.about_company:before,
+.nav-tabs .nav-link.active{
+    background-color: #f5f5f5;
+}
+/*	Background Color White
+====================================*/
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover,.social_media li a:hover,
+#slider_2:before,.post_info .post_date,.submit_btn button,.timer span{
+    background-color: #fff;
+}
+
+/*	Navbar Color
+====================================*/
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link:focus,
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #7cb908;
+}
+
+#main_nav.fixed-header{
+    background-color: #0a0d1d;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #7cb908;
+    color: #fff;
+}
+.navbar-nav .nav-item li a.active,
+.navbar-nav .nav-item .nav-link.active{
+    color: #7cb908;
+    background-color: transparent;
+}
+/*	Border Color
+===================================*/
+.border-top-3-default {
+    border-top-color: #7cb908
+}
+.hexagon:before{
+    border-bottom-color: #7cb908;
+}
+.hexagon:after,.nav-tabs .nav-link.active,
+.irs--flat .irs-from:before, .irs--flat .irs-to:before, .irs--flat .irs-single:before{
+    border-top-color: #7cb908;
+}
+.left:before{
+    border-color: transparent transparent transparent #7cb908;
+}
+.right:before{
+    border-color: transparent #7cb908 transparent transparent;
+}
+.social_media li a{
+    border-color: #fff;
+}
+.categories ul li,.post_comment ul li,.quantity .input-group{
+    border-color: #bdbdbd;
+}
+.comment_form textarea,.comment_form input,
+.form-control:focus,.border_gray input,
+.cart_form_main tbody tr td,.cart_form .form-group,
+.cart_total tr td{
+    border-color: #eee;
+}
+
+
+/*	RGBA Background Color
+====================================*/
+.overlay:before{
+    background-color: rgba(124, 185, 8, .8);
+}
+.overlay2{
+    background-color: rgba(0, 0, 0, .85);
+}
+.overlay3:before{
+    background-color: rgba(10, 13, 29, .8);
+}
+/*	Box Shadow
+====================================*/
+.pricing_item:hover,.product_item:hover,.post_item:hover,.dropdown-menu,
+.post_item2:hover,.single_product_img{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
